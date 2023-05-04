@@ -16,3 +16,6 @@ function updateProductLink() {
       })
     })
 }
+
+const loadingScreen = document.querySelector(".loading-screen")
+if (loadingScreen) loadingScreen.classList.add("d-none")

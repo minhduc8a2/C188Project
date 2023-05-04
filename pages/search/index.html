@@ -45,6 +45,17 @@
   </head>
 
   <body>
+    <div
+      class="loading-screen bg-white overflow-parent d-flex justify-content-center align-items-center"
+    >
+      <div
+        class="spinner-border text-danger"
+        role="status"
+        style="width: 5rem; height: 5rem; border-width: 1rem"
+      >
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
     <header class="container"></header>
 
     <main>
@@ -76,7 +87,8 @@
     ></script>
     <script src="./script.js"></script>
     <script src="../header/header.js"></script>
-    <script src="../sharedJS/script.js"></script>
     <script src="../footer/index.js"></script>
+    <script src="../sharedJS/script.js" defer></script>
+
   </body>
 </html>

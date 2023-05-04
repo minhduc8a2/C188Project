@@ -2,8 +2,8 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
-a{
-  color:inherit
+a {
+  color: inherit;
 }
 ul {
   list-style-type: none;
@@ -17,8 +17,6 @@ header.container {
   padding: 10px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
-
-
 
 nav.navbar .navbar-toggler {
   border-color: #333;
@@ -195,4 +193,23 @@ header {
   right: 1rem;
   top: 40px;
   transform: translateY(-50%);
+}
+
+body {
+ 
+  min-height: 100vh;
+}
+
+.overflow-parent {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
