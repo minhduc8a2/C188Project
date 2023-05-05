@@ -151,7 +151,6 @@ main h1 {
 .section--center img {
   margin: 1rem;
   max-width: 50%;
- 
 }
 .section--img img {
   margin: 1rem;
@@ -212,4 +211,12 @@ header {
   right: 1rem;
   top: 40px;
   transform: translateY(-50%);
+}
+.overflow-parent {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
 }
