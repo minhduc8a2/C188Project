@@ -29,6 +29,7 @@ nav.navbar .nav-tabs {
 nav.navbar .nav-link {
   color: #333;
   font-size: 14px;
+  font-weight:bold;
 }
 
 nav.navbar .nav-link:hover {
