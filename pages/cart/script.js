@@ -41,7 +41,7 @@ function renderCartList(cartList) {
     <div
     class="cart-product-card d-flex flex-row mt-3 justify-content-between border-bottom p-3 "
   >
-    <div class="cart-product-card__main d-flex flex-row gap-5">
+    <div class="cart-product-card__main w-100 d-flex flex-row gap-5">
       <img
         src="../../Picture/clothes/${item.type}/${item.code}/1.jpg"
         alt=""
@@ -52,7 +52,7 @@ function renderCartList(cartList) {
         <p class="opacity-75">350.000 VNĐ</p>
         <input
           type="number"
-          class="number"
+          class="number w-100"
           min="0"
           data-product="${item.type}/${item.code}"
           value="${formatMoney(item.amount)}"
