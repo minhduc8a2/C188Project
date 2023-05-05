@@ -52,7 +52,7 @@ function renderCartList(cartList) {
         <p class="opacity-75">350.000 VNĐ</p>
         <input
           type="number"
-          class="number mw-100"
+          class="number mw-100 px-2"
           min="0"
           data-product="${item.type}/${item.code}"
           value="${formatMoney(item.amount)}"

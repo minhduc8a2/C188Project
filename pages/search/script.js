@@ -12,8 +12,8 @@ function updateProductLink() {
 }
 
 const searchFunction = () => {
-  const searchValue = searchInput.value
-  if(!searchValue) return;
+  const searchValue = searchInput.value.toLowerCase()
+  if (!searchValue) return
   const searchResult = productsName.filter((item) => {
     return searchValue.includes(item) || item.includes(searchValue)
   })
@@ -36,7 +36,8 @@ const searchFunction = () => {
       }
       return content
     })
-    productsList.innerHTML = content.join() || `<h2>Không tìm thấy sản phẩm</h2>`
+    productsList.innerHTML =
+      content.join() || `<h2>Không tìm thấy sản phẩm</h2>`
   }
   updateProductLink()
 }

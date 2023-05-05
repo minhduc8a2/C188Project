@@ -129,16 +129,35 @@ main h1 {
   /* canh giữa theo chiều ngang */
   align-items: center;
   /* canh giữa theo chiều dọc */
+  position: relative;
+}
+
+.section--center:hover .titel_Img {
+  display: block;
+}
+
+.titel_Img {
+  display: none;
+  position: absolute;
+  color: #000;
+  font-size: 1.2rem;
+  bottom: 3rem;
+  padding: 8px 2rem;
+  background-color: #f9f9f9c0;
+  border-radius: 2px;
+  cursor: pointer;
 }
 
 .section--center img {
   margin: 1rem;
   max-width: 50%;
+ 
 }
 .section--img img {
   margin: 1rem;
   max-width: 50%;
 }
+
 footer {
   display: flex;
   flex-direction: column;
@@ -193,23 +212,4 @@ header {
   right: 1rem;
   top: 40px;
   transform: translateY(-50%);
-}
-
-body {
- 
-  min-height: 100vh;
-}
-
-.overflow-parent {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-}
-.center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }

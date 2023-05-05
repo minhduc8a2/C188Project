@@ -75,6 +75,9 @@ footer {
     flex-wrap: wrap;
     height: auto;
   }
+  .search-wrap {
+    width: 100% !important;
+  }
 }
 
 .overflow-parent {
@@ -85,5 +88,3 @@ footer {
   left: 0;
   z-index: 100;
 }
-
-
